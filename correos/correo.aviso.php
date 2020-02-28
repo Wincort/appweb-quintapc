@@ -1,5 +1,5 @@
 <?php
-$Email=isset($_REQUEST['correo'])?$_REQUEST['correo']:"wilbert@9ti.com.mx";
+$Email=isset($_REQUEST['correo'])?$_REQUEST['correo']:"---";
 $Nombre=isset($_REQUEST['nombre'])?$_REQUEST['nombre']:"---";
 $Apellido=isset($_REQUEST['apellido'])?$_REQUEST['apellido']:"---";
 $Telefono=isset($_REQUEST['telefono'])?$_REQUEST['telefono']:"---";
@@ -20,16 +20,13 @@ require "PHPMailer/PHPMailerAutoload.php";
    
         $mail->CharSet = 'UTF-8';
         $mail->IsHTML(true);
-        $mail->From="autoreply@quintasparaisocampestre.com";
+        $mail->From="correo@random.com";
         $mail->FromName=$from_name;
         $mail->Sender=$from;
         $mail->AddReplyTo($from, $from_name);
         $mail->Subject = $subject;
         $mail->Body = $body;
         $mail->AddAddress($to);
-        $mail->addBCC('winco117@gmail.com');
-        $mail->addBCC('wincort@outlook.com');
-        $mail->addBCC('wilbert@9ti.com.mx');
         if(!$mail->Send())
         {
             $error ='{"status":false,"titulo":"No se pudo enviar el correo","mensaje":"Intente enviar su mensaje más tarde"}';
@@ -42,8 +39,8 @@ require "PHPMailer/PHPMailerAutoload.php";
         }
     }
     
-    $to   = "wilbert@9ti.com.mx";
-    $from = 'autoreply@quintasparaisocampestre.com';
+    $to   = "correo@random.com";
+    $from = 'correo@random.com';
     $name = 'Quintas Paraíso Campestre';
     $subj = 'Un contacto envió un mensaje';
     $msg = '
@@ -96,7 +93,7 @@ require "PHPMailer/PHPMailerAutoload.php";
                                         <a class="linkWeb" href="https://www.quintasparaisocampestre.com" target="_blank">www.quintasparaisocampestre.com</a><br>
                                         <p>Calle 18A número 248 x 27A Fracc. Monterreal Mérida, Yucatán.</p>
                                         <p>Teléfono: (999) 291 7755</p>
-                                        <p>Correo: ventas@quintasparaisocampestre.com</p>
+                                        <p>Correo: correo@random.com</p>
                                     </td>
                                 </tr>
                             </table>
