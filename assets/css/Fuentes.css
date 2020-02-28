@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Bell MT';
+    src: url("fonts/Bell MT.TTF");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Heading Book';
+    src: url("fonts/Heading-Pro-Book.ttf");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Heading Bold';
+    src: url("fonts/Heading-Pro-Bold-trial.ttf");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Heading Light';
+    src: url("fonts/Heading-Pro-Light-trial.ttf");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'MS Reference Sans Serif';
+    src: url("fonts/MS Reference Sans Serif.ttf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Myriad Bold';
+    src: url("fonts/Myriad Pro Bold Condensed.ttf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url("fonts/Nexa Bold.otf");
+    font-display: block;
+}

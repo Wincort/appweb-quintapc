@@ -1,0 +1,36 @@
+.Logo-Footer {
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    background-color: #5C8B00;
+    background-image: url("../../images/PLECA CONTACTO-17.png");
+    background-size: cover;
+    background-position: right;
+}
+
+footer,
+footer a {
+    color: white;
+    font-family: "MS Reference Sans Serif";
+}
+
+footer h3 {
+    font-family: "Heading Bold";
+    letter-spacing: 1px;
+}
+
+footer h4 a {
+    font-family: "Heading Bold";
+    letter-spacing: 2px;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #aece29;
+    text-decoration: none;
+}

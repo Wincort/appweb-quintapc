@@ -1,0 +1,63 @@
+#Titulo {
+    font-family: "Bell MT";
+    text-align: center;
+    background: #8fc145;
+    color: white;
+    margin-top: 7rem;
+    /*letter-spacing: 0.2rem;*/
+    padding: 2rem;
+}
+
+.Subtitulo-terreno {
+    font-family: "Heading Bold";
+    color: #feee00;
+}
+
+.Contenido-terreno {
+    font-family: "Heading Bold";
+    color: white;
+}
+
+.Contenido-terreno .numero {
+    font-family: "Nexa Bold";
+    font-size: smaller;
+}
+
+body {
+    background-color: #78B421;
+    background-image: url(../../images/FONDO03.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.popover-title,
+.table-title {
+    /*background-color: #2A6210;*/
+    border-bottom: 0;
+    color: white;
+    font-family: "Bell MT";
+    font-size: x-large;
+}
+
+.popover-content,
+.table {
+    /*background-color: #558700;*/
+    color: white;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "MS Reference Sans Serif";
+    font-size: large;
+}
+
+.popover-content table {
+    margin-bottom: 0;
+}
+
+.table>tbody>tr>td {
+    border: none;
+}
+
+.popover {
+    background: #aece29;
+}
