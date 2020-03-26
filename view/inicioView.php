@@ -154,13 +154,11 @@
         </div>
     </div>
     
-    <!-- Google Maps -->
-    <div class="CabeceraUbicacion">
+    <div id="mapa" class="CabeceraUbicacion">
         <h1>UBICACIÓN</h1>
     </div>
-
-    <!--<div id="map-canvas" class='google-container'></div>-->
-    <section id="croquis" class="croquis">
+    <div id="map-canvas" class='google-container'></div>
+    <!--<section id="croquis" class="croquis">
         <div class="container espacio-top espacio-bottom">
             <div class="row">
                 <div class="col-sm-6"> 
@@ -221,7 +219,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--UBICACION Y CARACTERÍSTICAS-->
     <div class="container-fluid section2">   
@@ -287,9 +285,9 @@
     
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Config_navbar.js"></script>
-
-    <script type="text/javascript" src="assets/js/Mapa.js"></script>        
+          
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2qajEnHA0D5o8Uk6IqTzH9_ibjXZ_huY&sensor=true"></script>
+    <script type="text/javascript" src="assets/js/Mapa.js"></script>  
 
     <script src="assets/lib/swiper/dist/js/swiper.min.js"></script>
 
@@ -328,7 +326,7 @@
 
     <script type="text/javascript">
         $(window).ready(function(){
-           // muestraMapa();
+            muestraMapa();
         });   
     </script>
 </body>
