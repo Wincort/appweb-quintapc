@@ -286,7 +286,8 @@
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Config_navbar.js"></script>
           
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2qajEnHA0D5o8Uk6IqTzH9_ibjXZ_huY&sensor=true"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=&sensor=true"></script>
+    
     <script type="text/javascript" src="assets/js/Mapa.js"></script>  
 
     <script src="assets/lib/swiper/dist/js/swiper.min.js"></script>
